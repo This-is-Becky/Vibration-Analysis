@@ -68,3 +68,13 @@ The script process the data to visualized the FFT frequency of each file.
 Result:
 
 <img width="500" height="300" alt="Z_offset_freq_comparison_chart" src="https://github.com/user-attachments/assets/72253bd2-3d1e-4d87-a088-a3c042f3a0e3" />
+
+## Plot_XYZ_RMS_Separately.py
+
+This Python script processes the data from CSV files, and compute the rms values, and plot the waveform for better visualization.
+
+* Cleans invalid rows.
+* Analyses on acceleration data (X, Y, Z axes), and plot the waveform, for XYZ combination, and separate XYZ plot as well.
+* Removes offset, which means the data will centralize by 0(0 as the baseline).
+* Computes RMS values, and generates visualizations RMS bar charts for each axis for each file. 
+* All results are saved in target folders as define.
