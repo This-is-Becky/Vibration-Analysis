@@ -9,7 +9,7 @@ import os
 import csv
 import math
 
-folder_path = r"./vibration_data/20251125"  # Update folder path
+folder_path = r"./Data/20251125"  # Update folder path
 
 # Process all CSV files in the folder
 for file_name in os.listdir(folder_path):
@@ -49,3 +49,4 @@ for file_name in os.listdir(folder_path):
         print(f"Summary for {file_name}:")
         print(f"  Total rows: {total_rows}")
         print(f"  Invalid rows: {invalid_rows}")
+
