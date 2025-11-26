@@ -6,5 +6,13 @@ This Python script analyzes vibration data stored in a CSV file to calculate the
 
 * Sampling rate for specific seconds (1st, 2nd, 6th, and 20th).
 * Average sampling rate across the entire dataset.
-* Result:
-  <img width="250" height="60" alt="image" src="https://github.com/user-attachments/assets/5c3ce1ac-2e82-46fd-aac4-44f4908fee7c" />
+* Result(Using PC_fan.csv as example):
+```
+Sampling rate in 1st second: 460 points
+Sampling rate in 2nd second: 461 points
+Sampling rate in 6th second: 463 points
+Sampling rate in 20nd second: 461 points
+Average sampling rate: 460.83 Hz
+```
+
+
