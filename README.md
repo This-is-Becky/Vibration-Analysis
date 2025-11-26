@@ -57,3 +57,14 @@ Summary for Rpi_fan.csv:
   Total rows: 23111
   Invalid rows: 0
 ```
+
+## Compare_FFT_InOnePlot_HannWindow.py
+The script process the data to visualized the FFT frequency of each file.
+
+* Cleans invalid rows of each files, computes the Fast Fourier Transform (FFT) for the Z-axis signal(which could be adjusted in different axis).
+* Applies offset removal and a Hanning window Function to minimize spectral leakage, producing a smoother frequency spectrum.
+* Plots FFT results for all files on a single chart, highlights peak frequencies, and saves the comparison plot in target specify folder.
+
+Result:
+
+<img width="500" height="300" alt="Z_offset_freq_comparison_chart" src="https://github.com/user-attachments/assets/72253bd2-3d1e-4d87-a088-a3c042f3a0e3" />
