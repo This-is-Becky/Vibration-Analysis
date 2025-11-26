@@ -15,4 +15,31 @@ Sampling rate in 20nd second: 461 points
 Average sampling rate: 460.83 Hz
 ```
 
+## Pre_Process_CheckInvalidData.py
 
+This script validates vibration data stored in CSV files within a specified folder. It checks each file for:
+
+* Missing or empty values
+* NaN entries
+* Invalid numeric data in X, Y, Z columns
+* Incorrect column count
+* Prints the exact row and column name, and provides a summary of total and invalid rows for each file.
+
+Result when processing the data file in folder:
+```
+Processing file: Data_with_NaN_Column.csv
+Row 2, Column X: Empty or NaN -> ' '
+Summary for Data_with_NaN_Column.csv:
+  Total rows: 23111
+  Invalid rows: 1
+
+Processing file: PC_fan.csv
+Summary for PC_fan.csv:
+  Total rows: 34493
+  Invalid rows: 0
+
+Processing file: Rpi_fan.csv
+Summary for Rpi_fan.csv:
+  Total rows: 23111
+  Invalid rows: 0
+```
