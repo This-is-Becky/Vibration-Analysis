@@ -2,7 +2,7 @@ import pandas as pd
 from datetime import datetime
 
 # Path to your CSV file
-data_file = "./vibration_data./20251125./202511251457.csv"  # Update path if needed
+data_file = "./Data./20251125./202511251457.csv"  # Update path if needed
 
 # Read CSV into DataFrame
 df = pd.read_csv(data_file)
@@ -49,3 +49,4 @@ if timestamps:
     print(f"Average sampling rate: {avg_sampling_rate:.2f} Hz")
 else:
     print("No valid timestamps found.")
+
