@@ -15,6 +15,15 @@ Sampling rate in 20nd second: 461 points
 Average sampling rate: 460.83 Hz
 ```
 
+Result in(300.csv as example):
+```
+Sampling rate in 1st second: 917 points
+Sampling rate in 2nd second: 918 points
+Sampling rate in 6th second: 917 points
+Sampling rate in 20nd second: 917 points
+Average sampling rate: 916.88 Hz
+```
+
 ## Pre_Process_CheckInvalidData.py
 
 This script validates vibration data stored in CSV files within a specified folder. It checks each file for:
@@ -27,6 +36,11 @@ This script validates vibration data stored in CSV files within a specified fold
 
 Result when processing the data file in folder:
 ```
+Processing file: 300.csv
+Summary for 300.csv:
+  Total rows: 31220
+  Invalid rows: 0
+
 Processing file: Data_with_NaN_Column.csv
 Row 2, Column X: Empty or NaN -> ' '
 Summary for Data_with_NaN_Column.csv:
