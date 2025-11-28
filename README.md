@@ -85,5 +85,7 @@ The script automate process multiple CSV data files in Data folder, and compute 
 * Pre-process the data>> Removes offset, makes data centralize by 0
 * Compute RMS values for each file, and plot the results in a bar chart for comparison.
 * Generates a summary csv. report for further analysis and visualization.
+<img width="500" height="300" alt="rms_bar_chart" src="https://github.com/user-attachments/assets/d8e6ac41-56a6-4f69-9bd8-0031cb50dad8" />
+
    
-## Result can be found in the "result" folder
+## All result can be found in the "result" folder
