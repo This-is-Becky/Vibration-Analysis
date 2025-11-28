@@ -78,5 +78,12 @@ This Python script processes the data from CSV files, and compute the rms values
 * Removes offset, which means the data will centralize by 0(0 as the baseline).
 * Computes RMS values, and generates visualizations RMS bar charts for each axis for each file. 
 * All results are saved in target folders as define.
+  
+## Plot_RMS_Comparison.py
 
+The script automate process multiple CSV data files in Data folder, and compute the RMS.
+* Pre-process the data>> Removes offset, makes data centralize by 0
+* Compute RMS values for each file, and plot the results in a bar chart for comparison.
+* Generates a summary csv. report for further analysis and visualization.
+   
 ## Result can be found in the "result" folder
